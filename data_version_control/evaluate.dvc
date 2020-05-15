@@ -1,0 +1,15 @@
+md5: 0c0fe45cabdb2b10048ce656695e1332
+cmd: python src/evaluate.py model.pkl data/features auc.metric
+deps:
+- md5: fea9c7bb1242b5e43d682c5d43e7c1d1
+  path: src/evaluate.py
+- md5: f9294854c163488810ae92266d2a9e50
+  path: model.pkl
+- md5: 42c7025fc0edeb174069280d17add2d4.dir
+  path: data/features
+outs:
+- md5: 0eaa29dc9b8c89bb9ba1348b3c3cc772
+  path: auc.metric
+  cache: false
+  metric: true
+  persist: false
