@@ -1,22 +1,4 @@
 
-# coding: utf-8
----
-title: "Monitor A Website For Changes With Python"
-author: "Chris Albon"
-date: 2017-12-20T11:53:49-07:00
-description: "Monitor a website for changes with Python."
-type: technical_note
-draft: false
----
-# In this snippet, we create a continous loop that, at set times, scrapes a website, checks to see if it contains some text and if so, emails me. Specifically I used this script to find when Venture Beat had published an article about my company.
-# 
-# It should be noted that there are more efficient ways of setting scripts to run at certain times, notable cron. However, this is a quick and dirty solution.
-# 
-# _Note: I've commented out the last few lines of this tutorial, which attempts to send an email. Before running this code, uncomment those lines_
-
-# ## Preliminaries
-
-# In[4]:
 
 
 # To download the page
