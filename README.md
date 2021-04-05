@@ -42,17 +42,10 @@ _General-purpose machine learning frameworks._
 	
 </details>
 
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">web_scraping</a></b>  - Web scraping hobby project  </summary>
+
+
+<summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/challenge">challenge</a></b>  - Coding practise with List compressions  </summary>
 
 	
-</details>
 
-<details><summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/challenge">challenge</a></b>  - Coding practise with List compressions  </summary>
 
-	
-</details>
-
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">web_scraping</a></b>  - Web scraping hobby project  </summary>
-
-	
-</details>
