@@ -1,6 +1,3 @@
-
-
-
 # To download the page
 import requests
 
@@ -15,9 +12,6 @@ import smtplib
 
 
 # ## Monitoring Script
-
-# In[7]:
-
 
 # This is a pretty simple script. The script downloads the homepage of VentureBeat, and if it finds some text, emails me.
 # If it does not find some text, it waits 60 seconds and downloads the homepage again.

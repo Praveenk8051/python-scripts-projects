@@ -1,17 +1,4 @@
-
-# coding: utf-8
----
-title: "Drilling Down With Beautiful Soup"
-author: "Chris Albon"
-date: 2017-12-20T11:53:49-07:00
-description: "Drilling Down With Beautiful Soup."
-type: technical_note
-draft: false
----
 # ## Preliminaries
-
-# In[1]:
-
 
 # Import required modules
 import requests
@@ -20,9 +7,6 @@ import pandas as pd
 
 
 # ## Download the HTML and create a Beautiful Soup object
-
-# In[2]:
-
 
 # Create a variable with the URL to this tutorial
 url = 'http://en.wikipedia.org/wiki/List_of_A_Song_of_Ice_and_Fire_characters'
@@ -47,17 +31,8 @@ soup = BeautifulSoup(r.text, "lxml")
 
 # ## Setting up where to put the results
 
-# In[3]:
-
-
 # Create a variable to score the scraped data in
 character_name = []
-
-
-# ## Drilling down with a forloop
-
-# In[4]:
-
 
 # for each item in all the toclevel-2 li items
 # (except the last three because they are not character names), 
@@ -70,24 +45,14 @@ for item in soup.find_all('li',{'class':'toclevel-2'})[:-3]:
 
 # ## Results
 
-# In[5]:
-
-
 # View all the character names
 character_name
 
 
 # ## Quick analysis: Which house has the most main characters?
 
-# In[6]:
-
-
 # Create a list object where to store the for loop results
 houses = []
-
-
-# In[7]:
-
 
 # For each element in the character_name list,
 for name in character_name:
@@ -96,10 +61,6 @@ for name in character_name:
     # but the first name if they only have one name,
     # Then append each last name to the houses list
     houses.append(name.split(' ')[-1])
-
-
-# In[8]:
-
 
 # Convert houses into a pandas series (so we can use value_counts())
 houses = pd.Series(houses)
