@@ -1,0 +1,3 @@
+# Note the existing dependencies here must not be changed.
+
+pytest==4.4.0

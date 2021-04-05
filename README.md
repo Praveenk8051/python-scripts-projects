@@ -19,7 +19,7 @@ _General-purpose machine learning frameworks._
 	
 </details>
 
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">scripts</a></b>  - Few handy scripts for regular usage </summary>
+<details><summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/scripts">scripts</a></b>  - Few handy scripts for regular usage </summary>
 
 - [delete_ds_store.py](https://github.com/Praveenk8051/python-scripts-projects/blob/master/scripts/delete_ds_store.py) : Delete the DS.Store present in tree structure
 - [print_tensors.py](https://github.com/Praveenk8051/python-scripts-projects/blob/master/scripts/print_tensors.py) : Print i/o tensors 
@@ -31,7 +31,7 @@ _General-purpose machine learning frameworks._
 	
 </details>
 
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">web_scraping</a></b>  - Web scraping hobby project  </summary>
+<details><summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/web_scraping">web_scraping</a></b>  - Web scraping hobby project  </summary>
 
 - [Find_and_Email_webscrap.py](https://github.com/Praveenk8051/python-scripts-projects/blob/master/web_scraping/Find_and_Email_webscrap.py) : Email the person using python script
 
@@ -42,5 +42,17 @@ _General-purpose machine learning frameworks._
 	
 </details>
 
+<details><summary><b><a href="https://github.com/tensorflow/tensorflow">web_scraping</a></b>  - Web scraping hobby project  </summary>
 
+	
+</details>
 
+<details><summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/challenge">challenge</a></b>  - Coding practise with List compressions  </summary>
+
+	
+</details>
+
+<details><summary><b><a href="https://github.com/tensorflow/tensorflow">web_scraping</a></b>  - Web scraping hobby project  </summary>
+
+	
+</details>
