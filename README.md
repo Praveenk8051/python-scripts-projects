@@ -44,7 +44,7 @@ _General-purpose machine learning frameworks._
 
 
 
-<summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/challenge">challenge</a></b>  - Coding practise with List compressions  </summary>
+<summary><b><a href="https://github.com/Praveenk8051/python-scripts-projects/tree/master/challenge">challenge</a></b>  - Coding practise with list compressions, tuple and dictionary  </summary>
 
 	
 
