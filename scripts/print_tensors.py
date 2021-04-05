@@ -5,6 +5,12 @@ from typing import Iterable
 import tensorflow as tf
 
 
+'''
+Print the tensor names. 
+This file takes frozen graph as input and prints the names
+
+'''
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', type=str, help='The file name of the frozen graph.')
 args = parser.parse_args()

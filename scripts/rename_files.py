@@ -5,6 +5,12 @@ from tensorflow.python.platform import gfile
 
 
 def create_file_list(path):
+    """Create list of file paths
+    Args:
+        path: folder containing image files
+    Returns:
+        list: list of image file paths
+    """
     file_list = []
     extensions = ['jpg', 'jpeg', 'JPG', 'JPEG', 'png']
     for extension in extensions:
@@ -14,11 +20,19 @@ def create_file_list(path):
 
 
 def rename_files(file_list, save_path, file_name):
+    """rename the files
+    Args:
+        file_list: list of image file paths
+        save_path: path where renamed files to be saved
+        file_name: the names of the file
+    Returns:
+        None
+    """
     count = 0
     for i in range(len(file_list)):
         print(file_list[i])
-        head, tail = ntpath.split(file_list[i])
-        a, b = tail.split(".")
+        _, tail = ntpath.split(file_list[i])
+        _, b = tail.split(".")
         trackName = file_name+str(count)
         os.rename(file_list[i], os.path.join(save_path, trackName + "." + b))
         count = count + 1
