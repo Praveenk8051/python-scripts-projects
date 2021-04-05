@@ -31,7 +31,7 @@ plt.subplot(122), plt.imshow(edges,cmap = 'gray')
 plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
 
 plt.show()
------------------------------------------------------------------------------------------------------------------------------------
+
 import cv2
 from matplotlib import pyplot as plt
 import numpy as np
